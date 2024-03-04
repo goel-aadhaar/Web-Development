@@ -15,6 +15,7 @@ h2 {
     color: beige;
 }
 #edu, #skill, #hobby {
+    background-color: rgb(35, 34, 34);
     display: inline-block;
     padding: 20 px;
     border: 5px solid white;
