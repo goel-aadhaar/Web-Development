@@ -1,0 +1,27 @@
+* {
+    background-color: black;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header img {
+    border: 10px solid white;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    color: beige;
+}
+#edu, #skill, #hobby {
+    display: inline-block;
+    padding: 20 px;
+    border: 5px solid white;
+    width: 400px;
+    height: 200px;
+}
+table {
+    background-color: rgb(113, 4, 4);
+    color: bisque;
+}
