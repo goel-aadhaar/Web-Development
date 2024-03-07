@@ -3,6 +3,10 @@
     color: azure;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#profileImage {
+    border-radius: 50%;
+    border: 3px solid black;
+}
 header img {
     border: 10px solid white;
 }
