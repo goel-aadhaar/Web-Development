@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: Roboto;
+}
+.above {
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    display: flex;
+    justify-content: space-around;
+}
+.right {
+    display: flex;
+    justify-content: space-around;
+}
+.banner-image img {
+    margin-left: 50px;
+}
+.topline {
+    font: bold;
+    font-size: 20px;
+    color: black;
+}
+.topline .lowline {
+    font-size: 15px;
+    color: rgb(60, 56, 56);
+}
+
+#pi-button button {
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+    padding: 10px 20px;
+    background-color: rgb(6, 143, 223);
+    color: white;
+}

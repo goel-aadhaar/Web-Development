@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+    font-family: "Poppins",sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+#left-nav {
+    /* margin: 0 50px 0 0; */
+}
+#main_image {
+    height: 30px;
+    width: 30px;
+}
+nav ul li {
+    margin: 10px 25px;
+    
+}
+header {
+    background-color: rgb(23, 24, 26);
+    height: 50px;
+}
+nav li {
+    list-style: none;
+    color: white;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: ;
+}
+#store a {
+    color: orange;
+}
+.three {
+    display: flex;
+}
+#image1,#image2,#image3 {
+    /* border: 3px solid white; */
+    border-radius: 20%;
+    
+}
