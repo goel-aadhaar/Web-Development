@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format('woff')
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+    border-style: none;
+}
+body {
+    background-color: black;
+}
+.sec_one {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./media/images/bgm.jpg");
+    height: 95vh;
+}
+header {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 170px;
+    max-width: 85vw;
+    
+    /* border: 2px solid white; */
+}
+.main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+}
+.logo_img {
+    width: 148px;
+    height: 40px;
+}
+.language {
+    width: 127px;
+    height: 32px;
+    background-color: transparent;
+    border: 0.2px solid white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.sign_in {
+    width: 77px;
+    height: 32px;
+    background-color: red;
+    font-size: 14px;
+}
+.first_line {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.second_line {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.third_line {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.main_email {
+    margin-bottom: 50px;
+
+}
+.input_email {
+    width: 370px;
+    height: 56px;
+    background-color: transparent;
+    border: 0.2px solid white;
+    border-radius: 5px;
+}
+.get_started {
+    width: 210px;
+    height: 56px;
+    background-color: red;
+    font-size: 24px;
+}
+.btn {
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Netflix Sans';
+}
